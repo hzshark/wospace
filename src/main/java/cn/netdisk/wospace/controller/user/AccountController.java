@@ -1,6 +1,8 @@
 package cn.netdisk.wospace.controller.user;
 
 import cn.netdisk.wospace.controller.BaseController;
+import com.alibaba.fastjson.JSONObject;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -12,27 +14,30 @@ import java.util.Map;
 /**
  * Created by Administrator on 2017/10/29.
  */
-@Controller
+@RestController
 @RequestMapping("/admin")
 public class AccountController extends BaseController {
 
-    @GetMapping(value = "/")
-    public String Index(){
-        return "login";
-    }
-
-    @GetMapping(value = "/login")
-    public String Login(){
-        return "login";
-    }
-
     @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public String Login(Model model){
-        model.addAttribute("name","Ryan");
-        return "index";
+    public JSONObject Login(){
+        JSONObject resp = new JSONObject();
+        resp.put("name","Ryan");
+        resp.put("status",true);
+        resp.put("rel",true);
+        return resp;
     }
 
 
+    /**
+     * 退出登录
+     */
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public void loginOut() {
+
+//        session.invalidate();
+
+    }
     @RequestMapping("/json")
     @ResponseBody
     public Map<String,Object> json(){

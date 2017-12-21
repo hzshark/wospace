@@ -2,21 +2,21 @@
 <html lang="zh-cn">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Login - KitAdminCore</title>
     <script>
         if (window != window.top) top.location.href = self.location.href;
     </script>
-    <link href="/plugins/layui/css/layui.css" rel="stylesheet" />
-    <link href="/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="/build/css/login.css" rel="stylesheet" />
-    <link href="/plugins/sideshow/css/normalize.css" rel="stylesheet" />
-    <link href="/plugins/sideshow/css/demo.css" rel="stylesheet" />
-    <link href="/plugins/sideshow/css/component.css" rel="stylesheet" />
+    <link href="./plugins/layui/css/layui.css" rel="stylesheet" />
+    <link href="./plugins/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="./build/css/login.css" rel="stylesheet" />
+    <link href="./plugins/sideshow/css/normalize.css" rel="stylesheet" />
+    <link href="./plugins/sideshow/css/demo.css" rel="stylesheet" />
+    <link href="./plugins/sideshow/css/component.css" rel="stylesheet" />
     <!--[if IE]>
-        <script src="/plugins/sideshow/js/html5.js"></script>
+        <script src="./plugins/sideshow/js/html5.js"></script>
     <![endif]-->
     <style>
         canvas {
@@ -88,26 +88,26 @@
                         <h1>KITADMIN LOGIN</h1>
                     </header>
                     <div class="kit-login-main">
-                        <form action="/admin/login" class="layui-form" method="post">
+                        <form action="/user/login" class="layui-form" method="post">
                             <div class="layui-form-item">
                                 <label class="kit-login-icon">
                                     <i class="layui-icon">&#xe612;</i>
                                 </label>
-                                <input type="text" name="userName" lay-verify="required" autocomplete="off" placeholder="这里输入用户名." class="layui-input" />
+                                <input type="text" name="userName" lay-verify="required" autocomplete="off" placeholder="这里输入用户名." class="layui-input">
                             </div>
                             <div class="layui-form-item">
                                 <label class="kit-login-icon">
                                     <i class="layui-icon">&#xe642;</i>
                                 </label>
-                                <input type="password" name="password" lay-verify="required" autocomplete="off" placeholder="这里输入密码." class="layui-input" />
+                                <input type="password" name="password" lay-verify="required" autocomplete="off" placeholder="这里输入密码." class="layui-input">
                             </div>
                             <div class="layui-form-item">
                                 <label class="kit-login-icon">
                                     <i class="layui-icon">&#xe642;</i>
                                 </label>
-                                <input type="number" name="validCode" lay-verify="required|number" autocomplete="off" placeholder="输入右侧计算结果." class="layui-input" />
+                                <input type="number" name="validCode" lay-verify="required|number" autocomplete="off" placeholder="输入验证码." class="layui-input">
                                 <span class="form-code" id="changeCode" style="position:absolute;right:2px; top:2px;">
-                                    <img src="/build/images/GetVerfiyCode.png" id="refImg" style="cursor:pointer;" title="点击刷新"/>
+                                    <img src="./vrifyCode" id="refImg" style="cursor:pointer;" title="点击刷新"/>
                                 </span>
                             </div>
                             <div class="layui-form-item">
@@ -124,7 +124,7 @@
                         </form>
                     </div>
                     <footer>
-                        <p>KIT ADMIN © <a href="http://blog.zhengjinfan.cn" style="color:white; font-size:18px;" target="_blank">www.zhengjinfan.cn</a></p>
+                        <p>KIT ADMIN © <a href="#" style="color:white; font-size:18px;" target="_blank">hshao</a></p>
                     </footer>
                 </div>
             </div>
@@ -132,11 +132,11 @@
     </div>
     <!-- /container -->
 
-    <script src="/plugins/layui/layui.js"></script>
-    <script src="/plugins/sideshow/js/TweenLite.min.js"></script>
-    <script src="/plugins/sideshow/js/EasePack.min.js"></script>
-    <script src="/plugins/sideshow/js/rAF.js"></script>
-    <script src="/plugins/sideshow/js/demo-1.js"></script>
+    <script src="./plugins/layui/layui.js"></script>
+    <script src="./plugins/sideshow/js/TweenLite.min.js"></script>
+    <script src="./plugins/sideshow/js/EasePack.min.js"></script>
+    <script src="./plugins/sideshow/js/rAF.js"></script>
+    <script src="./plugins/sideshow/js/demo-1.js"></script>
     <script>
         layui.use(['layer', 'form'], function() {
             var layer = layui.layer,
@@ -144,7 +144,7 @@
                 form = layui.form;
 
             $('#changeCode').on('click', function() {
-                $('#changeCode > img')[0].src = '/build/images/GetVerfiyCode.png';
+                $('#changeCode > img')[0].src = './vrifyCode?d='+new Date()*1;
             });
 
             //清理左侧菜单缓存
@@ -158,20 +158,23 @@
                         shade: [0.3, '#333']
                     });
 //                    location.href = '/';
-                     $.post(data.form.action, data.field, function(res) {
-                         alert(res);
-                         if (!res.rel) {
-                             layer.msg(res.msg, {
-                                 icon: 2
-                             });
-                             loadIndex && layer.close(loadIndex);
-                             $('#changeCode').click(); //刷新验证码
-                         } else {
-                             setTimeout(function() {
-                                 location.href = '/admin/index'
-                             }, 1500);
+                    $.ajax({
+                        type: "POST",
+                        url: data.form.action,
+                        data: data.field,
+                        statusCode: {
+                          200: function() {
+                             location.href = "/index"
+                            // doSomething();
+                           },
+                          400:function(res){
+                            console.log(res)
+                            alert(res.responseJSON.msg)
+                            loadIndex && layer.close(loadIndex);
+                            $('#changeCode').click();
+                           }
                          }
-                     }, 'json');
+                    });
                     return false;
                 });
             }());

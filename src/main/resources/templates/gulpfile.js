@@ -1,4 +1,4 @@
-var pkg = require('/package.json');
+var pkg = require('./package.json');
 
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
@@ -13,21 +13,21 @@ var zip = require('gulp-zip');
 
 var task = {
     mincss: function() {
-        return gulp.src(['/src/css/**/*.css'])
+        return gulp.src(['./src/css/**/*.css'])
             .pipe(minify())
             .pipe(header.apply(null, ['/** <%= pkg.name %>-v<%= pkg.version %> <%= pkg.license %> License By <%= pkg.homepage %> e-mail:<%= pkg.email %> */\n', { pkg: pkg }]))
-            .pipe(gulp.dest('/build/css'));
+            .pipe(gulp.dest('./build/css'));
     },
     minjs: function() {
-        return gulp.src('/src/js/*.js')
+        return gulp.src('./src/js/*.js')
             .pipe(gulpif(['!app.js', '!config.js'], uglify()))
             .pipe(header.apply(null, ['/** <%= pkg.name %>-v<%= pkg.version %> <%= pkg.license %> License By <%= pkg.homepage %> e-mail:<%= pkg.email %> */\n <%= js %>', { pkg: pkg, js: ';' }]))
-            .pipe(gulp.dest('/build/js'));
+            .pipe(gulp.dest('./build/js'));
     },
     file: function() {
-        return gulp.src(['/src/images/**/*.{png,jpg,gif,html,mp3,json}'])
+        return gulp.src(['./src/images/**/*.{png,jpg,gif,html,mp3,json}'])
             .pipe(rename({}))
-            .pipe(gulp.dest('/build/images'));
+            .pipe(gulp.dest('./build/images'));
     }
 };
 gulp.task('minjs', task.minjs);
@@ -42,5 +42,5 @@ gulp.task('all', ['clear'], function() {
     }
 });
 gulp.task('clear', function(cb) {
-    return del(['/build/*'], cb);
+    return del(['./build/*'], cb);
 });

@@ -1,34 +1,66 @@
 package cn.netdisk.wospace.controller.page;
 
-import cn.netdisk.wospace.vo.admin.AdminUserInfoVo;
+import cn.netdisk.wospace.common.annotation.SystemControllerLog;
+import cn.netdisk.wospace.controller.BaseController;
+import com.google.code.kaptcha.impl.DefaultKaptcha;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletResponse;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+
 
 /**
  * 页面跳转
  *
- * @author hshao
- * @company 杭州尚尚签网络科技有限公司
- * @date 2017/11/02 0011
  */
 @Controller
-@RequestMapping("/admin")
-public class PageController {
+@RequestMapping("/")
+public class PageController extends BaseController {
 
+    @Autowired
+    DefaultKaptcha defaultKaptcha;
+
+    @RequestMapping(value = "/vrifyCode", method = RequestMethod.GET)
+    public void defaultKaptcha(HttpServletResponse httpServletResponse) throws Exception{
+        byte[] captchaChallengeAsJpeg = null;
+        ByteArrayOutputStream jpegOutputStream = new ByteArrayOutputStream();
+        try {
+            //生产验证码字符串并保存到session中
+            String createText = defaultKaptcha.createText();
+            session.setAttribute("vrifyCode", createText);
+            //使用生产的验证码字符串返回一个BufferedImage对象并转为byte写入到byte数组中
+            BufferedImage challenge = defaultKaptcha.createImage(createText);
+            ImageIO.write(challenge, "jpg", jpegOutputStream);
+        } catch (IllegalArgumentException e) {
+            httpServletResponse.sendError(HttpServletResponse.SC_NOT_FOUND);
+            return;
+        }
+
+        //定义response输出类型为image/jpeg类型，使用response输出流输出图片的byte数组
+        captchaChallengeAsJpeg = jpegOutputStream.toByteArray();
+        httpServletResponse.setHeader("Cache-Control", "no-store");
+        httpServletResponse.setHeader("Pragma", "no-cache");
+        httpServletResponse.setDateHeader("Expires", 0);
+        httpServletResponse.setContentType("image/jpeg");
+        ServletOutputStream responseOutputStream =
+                httpServletResponse.getOutputStream();
+        responseOutputStream.write(captchaChallengeAsJpeg);
+        responseOutputStream.flush();
+        responseOutputStream.close();
+    }
 
     /**
      * 跳转到登录页面
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String Index() {
-        return "/login";
+        return "/index";
     }
 
     /**
@@ -49,21 +81,20 @@ public class PageController {
         return "main";
     }
 
-    @RequestMapping(value = "/table",method = RequestMethod.GET)
-    public String toTable(){
-        return "table";
+    @RequestMapping(value = "/navbar",method = RequestMethod.GET)
+    public String toNavbar(){
+        return "navbar";
     }
 
-    @RequestMapping(value = "/test",method = RequestMethod.GET)
-    public String toTest(){
-        return "test";
+    @RequestMapping(value = "/coinItem",method = RequestMethod.GET)
+    public String toCoinItem(){
+        return "coinItem";
     }
 
-
-    @RequestMapping(value = "/form",method = RequestMethod.GET)
-    public String toFrom(){
-        List<AdminUserInfoVo> list = new ArrayList<AdminUserInfoVo>();
-        return "form";
+    @RequestMapping(value = "/machineItem",method = RequestMethod.GET)
+    @SystemControllerLog(description = "/machineItem")
+    public String toMachineItem(){
+        return "machineItem";
     }
 
 }

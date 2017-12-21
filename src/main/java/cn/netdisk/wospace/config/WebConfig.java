@@ -9,6 +9,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
@@ -22,9 +23,12 @@ import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
+
 @EnableWebMvc
 @ComponentScan
 @Configuration
+
+@ImportResource(locations={"classpath:mykaptcha.xml"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Autowired
@@ -65,18 +69,14 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/404").setViewName("error/error");
     }
 
+
     /**
      * 配置静态资源路径
      */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/templates/**").addResourceLocations("classpath:/templates/");
-        registry.addResourceHandler("/build/**").addResourceLocations("classpath:/public/build/");
-        registry.addResourceHandler("/views/**").addResourceLocations("classpath:/public/views/");
-        registry.addResourceHandler("/datas/**").addResourceLocations("classpath:/public/datas/");
-        registry.addResourceHandler("/components/**").addResourceLocations("classpath:/public/components/");
-        registry.addResourceHandler("/plugins/**").addResourceLocations("classpath:/public/plugins/");
-
+        registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
         super.addResourceHandlers(registry);
 
     }

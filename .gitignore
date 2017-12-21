@@ -14,6 +14,10 @@ target/
 *.iws
 *.iml
 *.ipr
+kit_admin/
+mvnw
+mvnw.cmd
+.mvn
 
 ### NetBeans ###
 nbproject/private/

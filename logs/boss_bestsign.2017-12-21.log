@@ -1,0 +1,579 @@
+2017-12-21 19:36:00 |-INFO  17808 in cn.netdisk.wospace.WospaceApplication[main]        : Starting WospaceApplication on hzshark with PID 17808 (/home/hshao/IdeaProjects/wospace/target/classes started by hshao in /home/hshao/IdeaProjects/wospace)
+2017-12-21 19:36:00 |-INFO  17808 in cn.netdisk.wospace.WospaceApplication[main]        : No active profile set, falling back to default profiles: default
+2017-12-21 19:36:01 |-INFO  17808 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:36:01 CST 2017]; root of context hierarchy
+2017-12-21 19:36:01 |-INFO  17808 in org.hibernate.validator.internal.util.Version[background-preinit] : HV000001: Hibernate Validator 5.3.5.Final
+2017-12-21 19:36:01 |-INFO  17808 in org.springframework.beans.factory.xml.XmlBeanDefinitionReader[main] : Loading XML bean definitions from class path resource [mykaptcha.xml]
+2017-12-21 19:36:01 |-INFO  17808 in org.springframework.data.repository.config.RepositoryConfigurationDelegate[main] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'shiroConfiguration' of type [cn.netdisk.wospace.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$18a25756] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'servletContainerSessionManager' of type [org.apache.shiro.web.session.mgt.ServletContainerSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f5e645c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [com.sun.proxy.$Proxy56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'userManageService' of type [cn.netdisk.wospace.service.UserManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'customCredentialsMatcher' of type [cn.netdisk.wospace.common.auth.CustomShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c311f497] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:36:02 |-WARN  17808 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in class path resource [cn/netdisk/wospace/config/ShiroConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+2017-12-21 19:36:02 |-ERROR 17808 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:36:01 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:36:02 |-ERROR 17808 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:36:01 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:36:02 |-ERROR 17808 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:36:01 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:36:02 |-INFO  17808 in org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer[main] : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-21 19:36:02 |-ERROR 17808 in org.springframework.boot.SpringApplication[main]   : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in class path resource [cn/netdisk/wospace/config/ShiroConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:237)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:92)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:102)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:88)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:248)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1037)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1011)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:473)
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:301)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:217)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:190)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:169)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:220)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:279)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:311)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:119)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:70)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:346)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	... 36 common frames omitted
+2017-12-21 19:37:17 |-INFO  17897 in cn.netdisk.wospace.WospaceApplication[main]        : Starting WospaceApplication on hzshark with PID 17897 (/home/hshao/IdeaProjects/wospace/target/classes started by hshao in /home/hshao/IdeaProjects/wospace)
+2017-12-21 19:37:17 |-INFO  17897 in cn.netdisk.wospace.WospaceApplication[main]        : No active profile set, falling back to default profiles: default
+2017-12-21 19:37:17 |-INFO  17897 in org.hibernate.validator.internal.util.Version[background-preinit] : HV000001: Hibernate Validator 5.3.5.Final
+2017-12-21 19:37:17 |-INFO  17897 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:37:17 CST 2017]; root of context hierarchy
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.beans.factory.xml.XmlBeanDefinitionReader[main] : Loading XML bean definitions from class path resource [mykaptcha.xml]
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.data.repository.config.RepositoryConfigurationDelegate[main] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'shiroConfiguration' of type [cn.netdisk.wospace.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$8c3ab7c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'servletContainerSessionManager' of type [org.apache.shiro.web.session.mgt.ServletContainerSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$697ea633] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [com.sun.proxy.$Proxy56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'userManageService' of type [cn.netdisk.wospace.service.UserManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'customCredentialsMatcher' of type [cn.netdisk.wospace.common.auth.CustomShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36aa5503] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:37:18 |-WARN  17897 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in class path resource [cn/netdisk/wospace/config/ShiroConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+2017-12-21 19:37:18 |-ERROR 17897 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:37:17 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:37:18 |-ERROR 17897 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:37:17 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:37:18 |-ERROR 17897 in org.springframework.beans.factory.support.DefaultListableBeanFactory[main] : Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:37:17 CST 2017]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+2017-12-21 19:37:18 |-INFO  17897 in org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer[main] : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-21 19:37:18 |-ERROR 17897 in org.springframework.boot.SpringApplication[main]   : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in class path resource [cn/netdisk/wospace/config/ShiroConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:237)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.netdisk.wospace.WospaceApplication.main(WospaceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:92)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:102)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:88)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:248)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1037)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1011)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:473)
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: cn$xp$report$common$annotation$SystemControllerLog
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:301)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:217)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:190)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:169)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:220)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:279)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:311)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:119)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:70)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:346)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	... 36 common frames omitted
+2017-12-21 19:40:38 |-INFO  18178 in cn.netdisk.wospace.WospaceApplication[main]        : Starting WospaceApplication on hzshark with PID 18178 (/home/hshao/IdeaProjects/wospace/target/classes started by hshao in /home/hshao/IdeaProjects/wospace)
+2017-12-21 19:40:38 |-INFO  18178 in cn.netdisk.wospace.WospaceApplication[main]        : No active profile set, falling back to default profiles: default
+2017-12-21 19:40:38 |-INFO  18178 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:40:38 CST 2017]; root of context hierarchy
+2017-12-21 19:40:38 |-INFO  18178 in org.hibernate.validator.internal.util.Version[background-preinit] : HV000001: Hibernate Validator 5.3.5.Final
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.beans.factory.xml.XmlBeanDefinitionReader[main] : Loading XML bean definitions from class path resource [mykaptcha.xml]
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.data.repository.config.RepositoryConfigurationDelegate[main] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'shiroConfiguration' of type [cn.netdisk.wospace.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$bdb26acc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'servletContainerSessionManager' of type [org.apache.shiro.web.session.mgt.ServletContainerSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$9af6593d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [com.sun.proxy.$Proxy56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'userManageService' of type [cn.netdisk.wospace.service.UserManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:39 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'customCredentialsMatcher' of type [cn.netdisk.wospace.common.auth.CustomShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:40 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:40 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:40 |-INFO  18178 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6822080d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:40:40 |-INFO  18178 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat initialized with port(s): 8091 (http)
+2017-12-21 19:40:40 |-INFO  18178 in org.apache.catalina.core.StandardService[main]     : Starting service [Tomcat]
+2017-12-21 19:40:40 |-INFO  18178 in org.apache.catalina.core.StandardEngine[main]      : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-21 19:40:40 |-INFO  18178 in org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][localhost-startStop-1] : Initializing Spring embedded WebApplicationContext
+2017-12-21 19:40:40 |-INFO  18178 in org.springframework.web.context.ContextLoader[localhost-startStop-1] : Root WebApplicationContext: initialization completed in 1909 ms
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'multipartFilter' to: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'encodingFilter' to urls: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'commonFilter' to urls: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'shiroFilter' to: [/*]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.boot.web.servlet.ServletRegistrationBean[localhost-startStop-1] : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.HelloController.json()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession(java.lang.String)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testException()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testLog()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(org.springframework.ui.Model)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(java.lang.String)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.Index()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/index],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toIndex()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/test],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toTest()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/table],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toTable()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/form],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toFrom()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/login],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toLoginPage()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/main],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toMain()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.user.AccountController.json()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject cn.netdisk.wospace.controller.user.AccountController.Login()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/logout],methods=[GET]}" onto public void cn.netdisk.wospace.controller.user.AccountController.loginOut()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession(java.lang.String)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testException()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testLog()
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.index(java.lang.String)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/500] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/404] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/templates/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2017-12-21 19:40:41 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[main] : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:40:38 CST 2017]; root of context hierarchy
+2017-12-21 19:40:42 |-INFO  18178 in org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver[main] : Detected @ExceptionHandler methods in globalExceptionHandler
+2017-12-21 19:40:43 |-INFO  18178 in org.springframework.jmx.export.annotation.AnnotationMBeanExporter[main] : Registering beans for JMX exposure on startup
+2017-12-21 19:40:43 |-INFO  18178 in org.springframework.context.support.DefaultLifecycleProcessor[main] : Starting beans in phase 2147483647
+2017-12-21 19:40:43 |-INFO  18178 in org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor[main] : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-12-21 19:40:43 |-INFO  18178 in org.apache.coyote.http11.Http11NioProtocol[main]   : Initializing ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:40:43 |-INFO  18178 in org.apache.coyote.http11.Http11NioProtocol[main]   : Starting ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:40:43 |-INFO  18178 in org.apache.tomcat.util.net.NioSelectorPool[main]   : Using a shared selector for servlet write/read
+2017-12-21 19:40:43 |-INFO  18178 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat started on port(s): 8091 (http)
+2017-12-21 19:40:43 |-INFO  18178 in cn.netdisk.wospace.WospaceApplication[main]        : Started WospaceApplication in 5.204 seconds (JVM running for 5.568)
+2017-12-21 19:43:03 |-INFO  18178 in org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][http-nio-8091-exec-1] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-21 19:43:03 |-INFO  18178 in org.springframework.web.servlet.DispatcherServlet[http-nio-8091-exec-1] : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-21 19:43:03 |-INFO  18178 in org.springframework.web.servlet.DispatcherServlet[http-nio-8091-exec-1] : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.TemplateEngine[http-nio-8091-exec-1] : [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.templateresolver.AbstractTemplateResolver[http-nio-8091-exec-1] : [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.templateresolver.AbstractTemplateResolver[http-nio-8091-exec-1] : [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.messageresolver.AbstractMessageResolver[http-nio-8091-exec-1] : [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.messageresolver.AbstractMessageResolver[http-nio-8091-exec-1] : [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.TemplateEngine.CONFIG[http-nio-8091-exec-1] : [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-12-21 19:43:03 |-INFO  18178 in org.thymeleaf.TemplateEngine[http-nio-8091-exec-1] : [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-12-21 19:46:43 |-INFO  18178 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[Thread-15] : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6e171cd7: startup date [Thu Dec 21 19:40:38 CST 2017]; root of context hierarchy
+2017-12-21 19:46:43 |-INFO  18178 in org.springframework.context.support.DefaultLifecycleProcessor[Thread-15] : Stopping beans in phase 2147483647
+2017-12-21 19:46:43 |-INFO  18178 in org.springframework.jmx.export.annotation.AnnotationMBeanExporter[Thread-15] : Unregistering JMX-exposed beans on shutdown
+2017-12-21 19:46:45 |-INFO  18635 in cn.netdisk.wospace.WospaceApplication[main]        : Starting WospaceApplication on hzshark with PID 18635 (/home/hshao/IdeaProjects/wospace/target/classes started by hshao in /home/hshao/IdeaProjects/wospace)
+2017-12-21 19:46:45 |-INFO  18635 in cn.netdisk.wospace.WospaceApplication[main]        : No active profile set, falling back to default profiles: default
+2017-12-21 19:46:46 |-INFO  18635 in org.hibernate.validator.internal.util.Version[background-preinit] : HV000001: Hibernate Validator 5.3.5.Final
+2017-12-21 19:46:46 |-INFO  18635 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@498d318c: startup date [Thu Dec 21 19:46:46 CST 2017]; root of context hierarchy
+2017-12-21 19:46:46 |-INFO  18635 in org.springframework.beans.factory.xml.XmlBeanDefinitionReader[main] : Loading XML bean definitions from class path resource [mykaptcha.xml]
+2017-12-21 19:46:46 |-INFO  18635 in org.springframework.data.repository.config.RepositoryConfigurationDelegate[main] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'shiroConfiguration' of type [cn.netdisk.wospace.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$3ecf40b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'servletContainerSessionManager' of type [org.apache.shiro.web.session.mgt.ServletContainerSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1c132f21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [com.sun.proxy.$Proxy56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'userManageService' of type [cn.netdisk.wospace.service.UserManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'customCredentialsMatcher' of type [cn.netdisk.wospace.common.auth.CustomShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:47 |-INFO  18635 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e93eddf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat initialized with port(s): 8091 (http)
+2017-12-21 19:46:48 |-INFO  18635 in org.apache.catalina.core.StandardService[main]     : Starting service [Tomcat]
+2017-12-21 19:46:48 |-INFO  18635 in org.apache.catalina.core.StandardEngine[main]      : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-21 19:46:48 |-INFO  18635 in org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][localhost-startStop-1] : Initializing Spring embedded WebApplicationContext
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.web.context.ContextLoader[localhost-startStop-1] : Root WebApplicationContext: initialization completed in 1804 ms
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'multipartFilter' to: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'encodingFilter' to urls: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'commonFilter' to urls: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'shiroFilter' to: [/*]
+2017-12-21 19:46:48 |-INFO  18635 in org.springframework.boot.web.servlet.ServletRegistrationBean[localhost-startStop-1] : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.HelloController.json()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession(java.lang.String)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testException()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testLog()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(org.springframework.ui.Model)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(java.lang.String)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.Index()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/index],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toIndex()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/vrifyCode],methods=[GET]}" onto public void cn.netdisk.wospace.controller.page.PageController.defaultKaptcha(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/login],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toLoginPage()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/main],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toMain()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/navbar],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toNavbar()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/coinItem],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toCoinItem()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/machineItem],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toMachineItem()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.user.AccountController.json()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject cn.netdisk.wospace.controller.user.AccountController.Login()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/logout],methods=[GET]}" onto public void cn.netdisk.wospace.controller.user.AccountController.loginOut()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession(java.lang.String)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testException()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testLog()
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.index(java.lang.String)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/500] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/404] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/templates/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[main] : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@498d318c: startup date [Thu Dec 21 19:46:46 CST 2017]; root of context hierarchy
+2017-12-21 19:46:49 |-INFO  18635 in org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver[main] : Detected @ExceptionHandler methods in globalExceptionHandler
+2017-12-21 19:46:50 |-INFO  18635 in org.springframework.jmx.export.annotation.AnnotationMBeanExporter[main] : Registering beans for JMX exposure on startup
+2017-12-21 19:46:50 |-INFO  18635 in org.springframework.context.support.DefaultLifecycleProcessor[main] : Starting beans in phase 2147483647
+2017-12-21 19:46:50 |-INFO  18635 in org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor[main] : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-12-21 19:46:50 |-INFO  18635 in org.apache.coyote.http11.Http11NioProtocol[main]   : Initializing ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:46:50 |-INFO  18635 in org.apache.coyote.http11.Http11NioProtocol[main]   : Starting ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:46:50 |-INFO  18635 in org.apache.tomcat.util.net.NioSelectorPool[main]   : Using a shared selector for servlet write/read
+2017-12-21 19:46:50 |-INFO  18635 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat started on port(s): 8091 (http)
+2017-12-21 19:46:50 |-INFO  18635 in cn.netdisk.wospace.WospaceApplication[main]        : Started WospaceApplication in 4.979 seconds (JVM running for 5.656)
+2017-12-21 19:48:28 |-INFO  18635 in org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][http-nio-8091-exec-1] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-21 19:48:28 |-INFO  18635 in org.springframework.web.servlet.DispatcherServlet[http-nio-8091-exec-1] : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-21 19:48:28 |-INFO  18635 in org.springframework.web.servlet.DispatcherServlet[http-nio-8091-exec-1] : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.TemplateEngine[http-nio-8091-exec-2] : [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.templateresolver.AbstractTemplateResolver[http-nio-8091-exec-2] : [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.templateresolver.AbstractTemplateResolver[http-nio-8091-exec-2] : [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.messageresolver.AbstractMessageResolver[http-nio-8091-exec-2] : [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.messageresolver.AbstractMessageResolver[http-nio-8091-exec-2] : [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.TemplateEngine.CONFIG[http-nio-8091-exec-2] : [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-12-21 19:48:31 |-INFO  18635 in org.thymeleaf.TemplateEngine[http-nio-8091-exec-2] : [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-12-21 19:58:47 |-INFO  18635 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[Thread-15] : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@498d318c: startup date [Thu Dec 21 19:46:46 CST 2017]; root of context hierarchy
+2017-12-21 19:58:47 |-INFO  18635 in org.springframework.context.support.DefaultLifecycleProcessor[Thread-15] : Stopping beans in phase 2147483647
+2017-12-21 19:58:47 |-INFO  18635 in org.springframework.jmx.export.annotation.AnnotationMBeanExporter[Thread-15] : Unregistering JMX-exposed beans on shutdown
+2017-12-21 19:58:54 |-INFO  19519 in cn.netdisk.wospace.WospaceApplication[main]        : Starting WospaceApplication on hzshark with PID 19519 (/home/hshao/IdeaProjects/wospace/target/classes started by hshao in /home/hshao/IdeaProjects/wospace)
+2017-12-21 19:58:54 |-INFO  19519 in cn.netdisk.wospace.WospaceApplication[main]        : No active profile set, falling back to default profiles: default
+2017-12-21 19:58:54 |-INFO  19519 in org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[main] : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Thu Dec 21 19:58:54 CST 2017]; root of context hierarchy
+2017-12-21 19:58:54 |-INFO  19519 in org.hibernate.validator.internal.util.Version[background-preinit] : HV000001: Hibernate Validator 5.3.5.Final
+2017-12-21 19:58:55 |-INFO  19519 in org.springframework.beans.factory.xml.XmlBeanDefinitionReader[main] : Loading XML bean definitions from class path resource [mykaptcha.xml]
+2017-12-21 19:58:55 |-INFO  19519 in org.springframework.data.repository.config.RepositoryConfigurationDelegate[main] : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-12-21 19:58:55 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'shiroConfiguration' of type [cn.netdisk.wospace.config.ShiroConfiguration$$EnhancerBySpringCGLIB$$ee47b635] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:55 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'servletContainerSessionManager' of type [org.apache.shiro.web.session.mgt.ServletContainerSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:55 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cb8ba4a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'sysLoginAccountMapper' of type [com.sun.proxy.$Proxy56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'userManageService' of type [cn.netdisk.wospace.service.UserManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'customCredentialsMatcher' of type [cn.netdisk.wospace.common.auth.CustomShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'getAuthorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[main] : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98b75376] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat initialized with port(s): 8091 (http)
+2017-12-21 19:58:56 |-INFO  19519 in org.apache.catalina.core.StandardService[main]     : Starting service [Tomcat]
+2017-12-21 19:58:56 |-INFO  19519 in org.apache.catalina.core.StandardEngine[main]      : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-21 19:58:56 |-INFO  19519 in org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][localhost-startStop-1] : Initializing Spring embedded WebApplicationContext
+2017-12-21 19:58:56 |-INFO  19519 in org.springframework.web.context.ContextLoader[localhost-startStop-1] : Root WebApplicationContext: initialization completed in 1936 ms
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'multipartFilter' to: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'encodingFilter' to urls: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'commonFilter' to urls: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.FilterRegistrationBean[localhost-startStop-1] : Mapping filter: 'shiroFilter' to: [/*]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.boot.web.servlet.ServletRegistrationBean[localhost-startStop-1] : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.HelloController.json()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.TestSession(java.lang.String)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testException()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.testLog()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(org.springframework.ui.Model)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/hello/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.HelloController.index(java.lang.String)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.Index()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/index],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toIndex()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/vrifyCode],methods=[GET]}" onto public void cn.netdisk.wospace.controller.page.PageController.defaultKaptcha(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/login],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toLoginPage()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/main],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toMain()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/navbar],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toNavbar()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/coinItem],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toCoinItem()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/machineItem],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.page.PageController.toMachineItem()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> cn.netdisk.wospace.controller.user.AccountController.json()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject cn.netdisk.wospace.controller.user.AccountController.Login()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/logout],methods=[GET]}" onto public void cn.netdisk.wospace.controller.user.AccountController.loginOut()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/getsession]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/setsession/{age}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.TestSession(java.lang.String)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/exceptionTest]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testException()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/testlog],methods=[GET]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.testLog()
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/admin/index/{name}]}" onto public java.lang.String cn.netdisk.wospace.controller.user.AccountController.index(java.lang.String)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[main] : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/500] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/404] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/templates/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[main] : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+2017-12-21 19:58:57 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[main] : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61862a7f: startup date [Thu Dec 21 19:58:54 CST 2017]; root of context hierarchy
+2017-12-21 19:58:58 |-INFO  19519 in org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver[main] : Detected @ExceptionHandler methods in globalExceptionHandler
+2017-12-21 19:58:59 |-INFO  19519 in org.springframework.jmx.export.annotation.AnnotationMBeanExporter[main] : Registering beans for JMX exposure on startup
+2017-12-21 19:58:59 |-INFO  19519 in org.springframework.context.support.DefaultLifecycleProcessor[main] : Starting beans in phase 2147483647
+2017-12-21 19:58:59 |-INFO  19519 in org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor[main] : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-12-21 19:58:59 |-INFO  19519 in org.apache.coyote.http11.Http11NioProtocol[main]   : Initializing ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:58:59 |-INFO  19519 in org.apache.coyote.http11.Http11NioProtocol[main]   : Starting ProtocolHandler ["http-nio-8091"]
+2017-12-21 19:58:59 |-INFO  19519 in org.apache.tomcat.util.net.NioSelectorPool[main]   : Using a shared selector for servlet write/read
+2017-12-21 19:58:59 |-INFO  19519 in org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[main] : Tomcat started on port(s): 8091 (http)
+2017-12-21 19:58:59 |-INFO  19519 in cn.netdisk.wospace.WospaceApplication[main]        : Started WospaceApplication in 4.863 seconds (JVM running for 5.257)

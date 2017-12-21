@@ -95,6 +95,10 @@ public class ShiroConfiguration {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         // 必须设置 SecurityManager
         shiroFilterFactoryBean.setSecurityManager(securityManager);
+        shiroFilterFactoryBean.setLoginUrl("/login");
+//        shiroFilterFactoryBean.setUnauthorizedUrl("/unAuth");
+        shiroFilterFactoryBean.setUnauthorizedUrl("/woSpace");
+
         loadShiroFilterChain(shiroFilterFactoryBean);
         return shiroFilterFactoryBean;
     }
@@ -102,8 +106,6 @@ public class ShiroConfiguration {
     /**i
      * 加载shiroFilter权限控制规则（可从数据库或者配置文件读取）
      *
-     * @author wanghf
-     * @create  2017-04-20
      */
     private void loadShiroFilterChain(ShiroFilterFactoryBean shiroFilterFactoryBean){
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
@@ -125,7 +127,7 @@ public class ShiroConfiguration {
 
         // <!-- 过滤链定义，从上向下顺序执行，一般将 /**放在最为下边 -->:这是一个坑呢，一不小心代码就不好使了
         filterChainDefinitionMap.put("/**", "authc");
-        filterChainDefinitionMap.put("/**", "anon");
+//        filterChainDefinitionMap.put("/**", "anon");
         System.out.println("Shiro拦截器工厂类注入成功");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
     }
